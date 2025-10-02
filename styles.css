@@ -4,8 +4,17 @@ body {
 main {
     background-color: white;
     border-radius: 1rem;
+    padding: 1rem;
+    margin: 0 auto;
+    width: 90%;
     
 }
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 200%;
+}
+
 .main-button {
     border: none;
     background-color: darkgreen;
@@ -17,24 +26,34 @@ main {
     font-size: 1rem;
 }
 input[type="text"], input[type="email"], textarea, select {
-    width: 100%;
+    width: 90%;
     border: 1px solid #ced4da;
     border-radius: .25rem;
-    margin: 0rem 0rem 1rem 0rem;
     padding: .75rem;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: .5rem;
+    
+}
+label {
+    width: 90%;
+    display: block;
+    margin: auto;
 }
 legend {
-    color:darkgreen;
-    font-variant: small-caps;
+    color:green;
     font-size: 1.5rem;
-    padding-left: 1rem;
-    width: 100%;
+    text-align: center;
+    width: auto;
 }
 
 fieldset {
-    border: 1px solid darkgreen;
+    border: 1px solid green;
     padding: 1rem;
-    margin-bottom: 1.25rem;
+    margin:auto;
+    border-radius: 1rem;
+    display: block;
+    width: 90%;
 }
 
 label {
