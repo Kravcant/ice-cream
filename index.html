@@ -27,36 +27,36 @@
                     <option value="mint">Mint</option>
                     <option value="huckleberry">Huckleberry</option>
                 </select>
+                <p class="label">Choose your cone:</p> <!--Had to add label this way for proper formatting-->
+                <div class="inlineLabel">
+                    <label for="waffle">
+                        <input type="radio" id="waffle" name="method" value="waffle">Waffle cone
+                    </label>
+                    <label for="sugar">
+                        <input type="radio" id="sugar" name="method" value="sugar">Sugar cone
+                    </label>
+                    <label for="cup">
+                        <input type="radio" id="cup" name="method" value="cup">Cup
+                    </label>
+                </div>
+                <p class="label">Toppings:</p> <!--Had to add label this way for proper formatting-->
+                <div class="inlineLabel">
+                    <label for="sprinkles">
+                        <input type="checkbox" id="sprinkles" name="toppings[]" value="sprinkles">Sprinkles
+                    </label>
+                    <label for="nuts">
+                        <input type="checkbox" id="nuts" name="toppings[]" value="nuts">Nuts
+                    </label>
+                    <label for="cherry">
+                        <input type="checkbox" id="cherry" name="toppings[]" value="cherry">Cherry
+                    </label>
+                    <label for="whip">
+                        <input type="checkbox" id="whip" name="toppings[]" value="whip">Whipped cream
+                    </label>
+                </div>
+                <label for="comment">Additional comments:</label>
+                <textarea rows="5" id="comment" name="comment"></textarea>
             </fieldset>
-            <fieldset>
-                <legend>Choose your cone:</legend>
-                <label for="waffle">
-                    <input type="radio" id="waffle" name="method" value="waffle">Waffle cone
-                </label>
-                <label for="sugar">
-                    <input type="radio" id="sugar" name="method" value="sugar">Sugar cone
-                </label>
-                <label for="cup">
-                    <input type="radio" id="cup" name="method" value="cup">Cup
-                </label>
-            </fieldset>
-            <fieldset>
-                <legend>Toppings:</legend>
-                <label for="sprinkles">
-                    <input type="checkbox" id="sprinkles" name="toppings[]" value="sprinkles">Sprinkles
-                </label>
-                <label for="nuts">
-                    <input type="checkbox" id="nuts" name="toppings[]" value="nuts">Nuts
-                </label>
-                <label for="cherry">
-                    <input type="checkbox" id="cherry" name="toppings[]" value="cherry">Cherry
-                </label>
-                <label for="whip">
-                    <input type="checkbox" id="whip" name="toppings[]" value="whip">Whipped cream
-                </label>
-            </fieldset>
-            <label for="comment">Additional comments:</label>
-            <textarea rows="5" id="comment" name="comment"></textarea>
             <button type="submit">Place order</button>
         </form>
     </main>
