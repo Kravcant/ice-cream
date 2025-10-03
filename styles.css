@@ -6,7 +6,7 @@ main {
     border-radius: 1rem;
     padding: 1rem;
     margin: 0 auto;
-    width: 90%;
+    width: 75%;
     
 }
 h1 {
@@ -15,7 +15,7 @@ h1 {
     font-size: 200%;
 }
 
-.main-button {
+button {
     border: none;
     background-color: darkgreen;
     border-color: darkgreen;
@@ -24,6 +24,9 @@ h1 {
     text-decoration: none;
     color: white;
     font-size: 1rem;
+    margin: 0 auto;
+    display: block;
+    width: 75%;
 }
 input[type="text"], input[type="email"], textarea, select {
     width: 90%;
@@ -36,7 +39,7 @@ input[type="text"], input[type="email"], textarea, select {
     
 }
 label {
-    width: 90%;
+    width: 75%;
     display: block;
     margin: auto;
 }
@@ -53,7 +56,7 @@ fieldset {
     margin:auto;
     border-radius: 1rem;
     display: block;
-    width: 90%;
+    width: 75%;
 }
 
 label {
