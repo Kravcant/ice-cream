@@ -7,7 +7,7 @@ main {
     border-radius: 1rem;
     padding: 1rem;
     margin: 0 auto;
-    width: 75%;
+    width: 90%;
     
 }
 h1 {
@@ -24,9 +24,9 @@ button {
     text-decoration: none;
     color: white;
     font-size: 1rem;
-    margin: 0 auto;
+    margin: 0 auto 0 2rem;
     display: block;
-    width: 75%;
+    width: 90%;
 }
 input[type="text"], input[type="email"], textarea, select {
     width: 90%;
@@ -41,9 +41,8 @@ input[type="text"], input[type="email"], textarea, select {
 
 label, .label {
     display: block;
-    width: 75%;
+    width: 90%;
     margin: 0 auto;
-    padding-bottom: .5rem;
 }
 .inlineLabel label {
     display: inline;
@@ -65,7 +64,13 @@ fieldset {
     margin: 1rem;
     border-radius: 1rem;
     display: block;
-    width: 75%;
+    width: 90%;
 }
 
+div {
+    margin: 1rem 3.5rem;
+}
 
+form {
+    padding-left: 2.25rem;
+}
