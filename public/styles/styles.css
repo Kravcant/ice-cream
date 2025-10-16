@@ -74,3 +74,8 @@ div {
 form {
     padding-left: 2.25rem;
 }
+
+.error {
+    color: darkred;
+    display: none;
+}

@@ -6,17 +6,20 @@
     <link rel="icon" href="/images/Ice_Cream_Clip_Art.png">
     <title>Ice Cream Order</title>
     <link rel="stylesheet" href="/styles/styles.css"> 
+    <script src="js/ice-cream.js" defer></script>
 </head>
 <body>
     <main>
         <h1>Ice Cream Order Form</h1>
-        <form>
+        <form id="ice-cream-form" action="#" method="get">
             <fieldset>
                 <legend>Personal Information</legend>
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name">
+                <span id="err-name" class="error">NAME CANNOT BE EMPTY</span>
                 <label for="email">Email:</label>
                 <input type="text" id="email" name="email">
+                <span id="err-email" class="error">EMAIL CANNOT BE EMPTY</span>
             </fieldset>
             <fieldset>
                 <legend>Order Details</legend>
@@ -40,6 +43,7 @@
                         <input type="radio" id="cup" name="method" value="cup">Cup
                     </label>
                 </div>
+                <span id="err-method" class="error">CANNOT BE EMPTY</span>
                 <p class="label">Toppings:</p> <!--Had to add label this way for proper formatting-->
                 <div class="inlineLabel">
                     <label for="sprinkles">
