@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/Ice_Cream_Clip_Art.png">
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="/styles/styles.css"> 
+</head>
+<body>
+    <main>
+        <h1>Thank you for ordering</h1>
+			<h2>Order summary</h2>
+			<p>Name: <%= order.name %></p>
+			<p>Email: <%= order.email %></p>
+            <p>Cone: <%= order.method %></p>
+			<p>Toppings: <%= order.toppings %></p>
+			<p>Comment: <%= order.comment %></p>
+			<p>Time: <%= order.timestamp %></p>
+    </main>
+</body>
+</html>
