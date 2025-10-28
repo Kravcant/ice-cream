@@ -22,7 +22,7 @@ app.get('/confirm', (req, res) => {
 });
 
 app.get('/admin', (req, res) => {
-    res.render('admin');
+    res.render('admin', { orders });
 });
 
 app.post('/submit-order', (req, res) => {

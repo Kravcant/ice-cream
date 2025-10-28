@@ -15,7 +15,7 @@ h1 {
     font-size: 200%;
 }
 
-button {
+#submit-button {
     border: none;
     background-color: darkgreen;
     border-color: darkgreen;
