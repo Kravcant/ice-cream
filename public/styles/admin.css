@@ -1,0 +1,16 @@
+h1 {
+    margin-bottom: 0;
+}
+
+.dt-layout-row .dt-layout-cell {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#order-table_wrapper {
+    margin-left: 10px;
+}
+
+.dt-layout-full {
+    margin-left: 10px;
+}
