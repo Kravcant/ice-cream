@@ -24,7 +24,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/confirm', (req, res) => {
-    res.render('confirmation', { order });
+    res.render('confirmation', { orders });
 });
 
 app.get('/admin', (req, res) => {
