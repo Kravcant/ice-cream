@@ -17,6 +17,8 @@ app.use(express.static('public'));
 
 app.use(express.urlencoded({ extended: true }));
 
+console.log('Engines:', app.engines);
+
 app.get('/', (req, res) => {
     res.render('home');
 });
