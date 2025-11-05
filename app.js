@@ -5,11 +5,6 @@ const app = express();
 const PORT = 3001;
 
 app.set('view engine', 'ejs');
-app.set('views', path.join(__dirname, 'views'));
-
-console.log('CWD:', process.cwd());
-console.log('View engine:', app.get('view engine'));
-console.log('Views path:', app.get('views'));
 
 const orders = [];
 
@@ -17,7 +12,6 @@ app.use(express.static('public'));
 
 app.use(express.urlencoded({ extended: true }));
 
-console.log('Engines:', app.engines);
 
 app.get('/', (req, res) => {
     res.render('home');
