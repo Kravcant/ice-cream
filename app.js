@@ -5,6 +5,8 @@ const app = express();
 const PORT = 3001;
 
 app.set('view engine', 'ejs');
+console.log('View engine:', app.get('view engine'));
+
 
 const orders = [];
 
