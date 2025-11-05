@@ -1,12 +1,14 @@
 import express from 'express';
 
+console.log('CWD:', process.cwd());
+console.log('View engine:', app.get('view engine'));
+console.log('Views path:', app.get('views'));
+
 const app = express();
 
 const PORT = 3001;
 
 app.set('view engine', 'ejs');
-console.log('View engine:', app.get('view engine'));
-
 
 const orders = [];
 
